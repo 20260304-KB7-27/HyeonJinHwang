@@ -13,6 +13,7 @@
     </ul>
 
     <!-- 선택한 탭에 따른 컴포넌트들을 보여줄 거임 -->
+     <!-- keep-alive는 캐싱처리를 돕는 것 -->
     <keep-alive include="CoralSeaTab">
       <component :is="currentTab"> </component>
     </keep-alive>
