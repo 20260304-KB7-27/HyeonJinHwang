@@ -1,3 +1,5 @@
 /자료
 /수업
 node_modules/
+/과제
+.DS_Store
